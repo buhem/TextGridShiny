@@ -1,0 +1,19 @@
+Package: TextGridShiny
+Type: Package
+Title: Annotation Interface for Speech Corpus
+Version: 1.0.0
+Authors@R: person("Mohamed", "El Idrissi", email = "mohamed.elidrissi@inalco.fr", role = c("aut", "cre"))
+Description: TextGridShiny allows to read TextGrid files and to display the annotated data. In addition, it is possible to interact with the created visual annotation in adding tiers and labels. 
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Repository: myrepo
+RoxygenNote: 7.0.2
+Imports: htmltools (>= 0.2.6), htmlwidgets (>= 0.6), jsonlite, methods,
+        rmarkdown, shiny, readr
+Suggests: knitr (>= 1.7)
+VignetteBuilder: knitr
+Author: Mohamed El Idrissi [aut, cre]
+Maintainer: Mohamed El Idrissi <mohamed.elidrissi@inalco.fr>
+Built: R 3.6.1; ; 2020-08-19 14:42:24 UTC; windows

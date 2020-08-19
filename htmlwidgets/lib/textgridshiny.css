@@ -1,0 +1,138 @@
+.html-widget {
+  /* margin-bottom: 100px; */
+  margin-top: 0px;
+  position: relative;
+  background: transparent;
+  box-sizing: border-box;
+  
+}
+
+.vis-timeline {
+  position: relative;
+  border: 1px solid #bfbfbf;
+
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+/* .button {
+  margin-bottom: -100px;
+  margin-top: 100px;
+  margin-right: 10px;
+  position: relative;
+  background: red;
+  height: 10px;
+  width: 50%;
+  
+} */
+/* .html-widget .vis-background .vis-minor.vis-odd {
+  background: #fdfdfd;
+  background: green;
+}
+.html-widget .vis-background .vis-minor.vis-even {
+  background: #fdfdfd;
+  background: black;
+} */
+/* .html-widget .vis-major {
+  font-weight: bold;
+  background: white;
+  display: none;
+} */
+#zoomIn {
+  /* display: none; */
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  /* z-index: 15; */
+}
+#zoomOut {
+  /* display: none; */
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  /* z-index: 15; */
+}
+.html-widget .zoom-menu[data-show-zoom] {
+  display: block;
+}
+.html-widget .zoom-menu .btn {
+  color: #333;
+  font-family: arial;
+  font-size: 18px;
+  line-height: 1.3333333;
+  text-shadow: none;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background: #FDFDFD;
+  box-shadow: 0 0 2px #ddd;
+}
+.vis-time-axis {
+  background: transparent;
+}
+.vis-time-axis .vis-grid.vis-minor {
+  /*display axis in grid*/
+   display: none; 
+  /* border-width: 2px; */
+  /* border-color: white; */
+  background: #FDFDFD; 
+}
+.vis-time-axis .vis-text.vis-minor {
+  /*display text in minor*/
+  /* display: none; */
+   font-weight: bold; 
+}
+.vis-time-axis .vis-text {
+  position: absolute;
+  color: black;
+  /* padding: 100px; */
+  width: 100px;
+  overflow: hidden;
+  text-overflow: clip;
+  box-sizing: border-box;
+   display: none; 
+  white-space: nowrap;
+}
+.vis-time-axis .vis-text.vis-measure {
+  position: absolute;
+  padding-left: 0;
+  padding-right: 30px;
+  margin-left: 0;
+  margin-right: 30px;
+  visibility: visible;
+  width: 100px;
+  color: transparent;
+}
+.vis-panel.vis-background.vis-horizontal .vis-grid.vis-minor {
+  border-color: #e5e5e5;
+}
+.vis-data-axis .vis-y-axis.vis-major {
+  width: 100%;
+  position: absolute;
+  color: #4d4d4d;
+  white-space: nowrap;
+}
+.vis-data-axis .vis-y-axis.vis-major.vis-measure {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  visibility: hidden;
+  width: auto;
+}
+.vis-data-axis .vis-y-axis.vis-minor {
+  position: absolute;
+  width: 100%;
+  color: #bebebe;
+  white-space: nowrap;
+}
+.vis-data-axis .vis-y-axis.vis-minor.vis-measure {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  visibility: hidden;
+  width: auto;
+}

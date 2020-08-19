@@ -1,0 +1,19 @@
+dependencies:
+- name: vis
+  version: 4.20.1
+  src: htmlwidgets
+  script: ./lib/vis.js
+  style: ./lib/vis.css
+- name: popupmodal
+  version: 1.20.11
+  src: htmlwidgets
+  script: ./lib/popupmodal.js
+  style: ./lib/popupmodal.css
+- name: style
+  version: 1.13.1
+  src: htmlwidgets
+  style: ./lib/style.css
+- name: timeline
+  version: 0.4
+  src: htmlwidgets
+  stylesheet: ./lib/textgridshiny.css

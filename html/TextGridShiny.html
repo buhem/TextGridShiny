@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Annotation Interface for Speech Corpus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for TextGridShiny {TextGridShiny}"><tr><td>TextGridShiny {TextGridShiny}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Annotation Interface for Speech Corpus</h2>
+
+<h3>Description</h3>
+
+<p>TextGridShiny allows to read TextGrid files and to display the annotated data. In addition, it is possible to interact with the created visual annotation in adding tiers and labels.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+TextGridShiny(message, width = NULL, height = NULL, elementId = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>message</code></td>
+<td>
+<p>A textgrid file containing the labels.</p>
+</td></tr>
+<tr valign="top"><td><code>width</code></td>
+<td>
+<p>Width of the resulting graph - defaults to fit container, probably leave this alone</p>
+</td></tr>
+<tr valign="top"><td><code>height</code></td>
+<td>
+<p>Height of the resulting graph - defaults to fit container, probably leave this alone</p>
+</td></tr>
+<tr valign="top"><td><code>elementId</code></td>
+<td>
+<p>Do not specify, this is used by the 'htmlwidgets' package</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A Annotation Interface which is an '<code>htmlwidgets</code>' object
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+
+## Not run: 
+
+library(TextGridShiny)
+
+TextGridShiny("inst/extdata/oran.TextGrid")
+
+
+## End(Not run)
+
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>TextGridShiny</em> version 1.0.0 <a href="00Index.html">Index</a>]</div>
+</body></html>
